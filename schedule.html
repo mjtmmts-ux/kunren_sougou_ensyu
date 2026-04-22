@@ -1,0 +1,264 @@
+<!doctype html>
+<!-- ↓enをjaに変更する -->
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SCHEDULE</title>
+    <meta name="description" content="妙蓮寺のミニシアター CINEMA THUMP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ↓p216ファビコン -->
+    <link rel="icon" type="image/png" href="cinemathump_images/favicon.png" />
+    <!-- ↓リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- ↓Googleフォントのリンクをコピペ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BJ+Cree:wght@400;500;600;700&family=Bebas+Neue&family=Boldonse&family=Dela+Gothic+One&family=Hachi+Maru+Pop&family=Kaisei+Decol&family=M+PLUS+1:wght@100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sawarabi+Gothic&family=Yuji+Mai&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- JavaScript補足テキスト拡大写真をつくろう -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css"
+    />
+  </head>
+  <!-- ↓テキストcourse.htmlからCSS直貼り -->
+  <style>
+    .about__title {
+      padding-left: 50px;
+      padding-bottom: 36px;
+    }
+
+    .about__body-item {
+      display: flex;
+      align-items: center;
+    }
+    .about__body-item-img {
+      width: 46%;
+    }
+    .about__body-item-img img {
+      width: 100%;
+    }
+    .about__body-item-texts {
+      box-sizing: border-box;
+      padding-right: 7.8%;
+      padding-left: 7.8%;
+      width: 54%;
+    }
+    .about__body-item-texts-copy {
+      font-size: 24px;
+      letter-spacing: 0.2em;
+      line-height: 1;
+      font-weight: bold;
+      color: #ff8c00;
+    }
+    .about__body-item-texts-p {
+      padding-top: 25px;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      line-height: 1.8;
+      color: #696969;
+    }
+    .about__body-more {
+      padding-top: 60px;
+    }
+    .about__body-more a {
+      margin: 0 auto;
+    }
+
+    #course-content {
+      max-width: 800px;
+      margin-top: 5%;
+    }
+
+    .menu {
+      max-width: 950px;
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #center_ch {
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .about__title {
+        padding-left: 0;
+        padding-bottom: 24px;
+        text-align: center;
+      }
+      .about__body-item {
+        flex-direction: column;
+      }
+      .about__body-item--reverse {
+        flex-direction: column-reverse;
+      }
+      .about__body-item-img {
+        width: 100%;
+      }
+      .about__body-item-texts {
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 48px;
+        padding-left: 10px;
+        width: 100%;
+      }
+      .about__body-item-texts-copy {
+        font-size: 16px;
+        color: #ff8c00;
+      }
+      .about__body-item-texts-p {
+        padding-top: 10px;
+        font-size: 10px;
+        color: #696969;
+      }
+      .about__body-more {
+        padding-top: 0;
+      }
+    }
+  </style>
+  <!-- ↑テキストcourse.htmlからCSS直貼り -->
+  <body>
+    <!-- ↓背景画像のクラス -->
+    <!--<div class="cover cover-home">-->
+      <header class="page-header wrapper">
+        <!-- ← wrapper クラスを追加 p211-->
+        <!-- ↓ロゴ画像がタイトルだけど、画像が表示されなかったときのためにタイトルとしてh1のクラスを設定↓-->
+        <h1 class="align-center">
+          <!-- ↓リンクを貼るためのaタグ -->
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="cinemathump_images/cinemathump_logo2.png"
+              alt="シネマサンプホーム"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav font-english">
+            <!-- ↓メニュータブを増やしたらリンクのaタグも増やす -->
+            <li><a href="schedule.html">SCHEDULE</a></li>
+            <li><a href="theater.html">THEATER</a></li>
+            <li><a href="cafe.html">CAFE</a></li>
+            <li><a href="access.html">ACCESS</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ↓見出しと文章のクラス schedule-->
+       <br />
+       <br />
+      <section class="schedule">
+        <h3 class="heading-large font-english">SCHEDULE</h3>
+        <div class="img-box">
+          <img src="cinemathump_images/ct_scedule.png" alt="上映スケジュール" />
+        </div>
+        <div class="about-text">
+          <ul>
+            <li>※開場は各回上映開始の10分前となります。</li>
+            <li>※各回、指定席・定員入替制です。</li>
+            <li>※当館カフェのドリンク・フードはすべてお持ち込み可です。</li>
+          </ul>
+        </div>
+      </section>
+      <br />
+      <br />
+      <br />
+      <!-- ↓見出しと文章のクラス showing-->
+      <section class="showing">
+        <h3 class="heading-large font-english">NOW SHOWING</h3>
+      </section>
+
+      <div class="about wrapper">
+        <div class="about__body">
+          <div class="about__body-item">
+            <div class="about__body-item-img">
+              <a
+                class="grid-gallery"
+                href="cinemathump_poster/groovin_poster1200.jpg"
+              >
+                <img src="cinemathump_poster/groovin_poster400.jpg" />
+              </a>
+            </div>
+            <div class="about__body-item-texts">
+              <div class="about__body-item-texts-copy">Groovin’</div>
+              <p class="about__body-item-texts-p">
+                2025/日本/カラー/90分
+              <p>ジャズドラマーの美鳥（みどり）は周囲との衝突が絶えず、仕事もクビになり、地元に戻り何かから逃れるように生きる日々。そんな時、演劇人アキラと出会う。比較、欲求、顕示欲───いろんなものに飲み込まれて、本当の望みはいつだって、すぐに隠れてしまう。いつだってそこにあるのに、いつもイチから探してしまうんだ。何かを愛するとは。</p>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__body">
+          <div class="about__body-item">
+            <div class="about__body-item-img">
+              <a
+                class="grid-gallery"
+                href="cinemathump_poster/akaihana_poster1200.jpg"
+              >
+                <img src="cinemathump_poster/akaihana_poster400.jpg" />
+              </a>
+            </div>
+            <div class="about__body-item-texts">
+              <div class="about__body-item-texts-copy">赤い花が咲いていた</div>
+              <p class="about__body-item-texts-p">
+                 2025/日本/カラー/60分
+                 <p>高校一年生のトーコは、幼馴染の神尾のラブレターの代筆を頼まれる。どんなラブレターを書くのか、一緒に考えるふたり。「人を好きになるってどういうこと？」「その人の役に立つためにはどうすればいいか、一生懸命考えることだと思う」初恋は、夕焼けみたいに赤くてまぶしくて、一瞬で、でも一生忘れない。</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about__body">
+          <div class="about__body-item">
+            <div class="about__body-item-img">
+              <a
+                class="grid-gallery"
+                href="cinemathump_poster/hungrybaby_poster1200.jpg"
+              >
+                <img src="cinemathump_poster/hungrybaby_poster400.jpg" />
+              </a>
+            </div>
+            <div class="about__body-item-texts">
+              <div class="about__body-item-texts-copy">HUNGRY BABY</div>
+              <p class="about__body-item-texts-p">
+                2025/日本・アメリカ/カラー/90分
+                <p>32歳、夫の不貞による離婚、貧困。親権まで奪われる危機にあるルーシー。裁判に追われ壊れそうになる日々の中、ルーシーはふとボクシングと出会う。苦しみ、憎しみ、虚しさ、すべてが「自分を超えたい」という思いに集約された時、ルーシーのプロボクサーへの道が始まった。</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<br />
+      <br />
+      <br />
+    <!-- ↓YOUTUBE埋め込み -->  
+     <div class="sns-item sns-youtube">
+          <h3 class="heading-large font-english">TRAILER</h3>
+          <br />
+      <div class="img-box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hdcNXytVDBI?si=c0dvRLAHdJDY19b_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br /><iframe width="560" height="315" src="https://www.youtube.com/embed/2aTP9em0IZE?si=7UI2sOXwEW-KVgKF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br /><iframe width="560" height="315" src="https://www.youtube.com/embed/yPjPFMraqR8?si=kdPTn5lnqYzcL_K9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <!-- ↓コピーライトの追加 -->
+        <div class="copyright">
+          <small>&copy; 2026 CINEMA THUMP</small>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <!-- ↓JavaScript -->
+  <!-- ↓JavaScript補足テキスト拡大写真をつくろう -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+  <script>
+    new LuminousGallery(document.querySelectorAll(".grid-gallery"));
+  </script>
+</html>

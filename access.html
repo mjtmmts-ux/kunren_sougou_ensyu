@@ -1,0 +1,113 @@
+<!doctype html>
+<!-- ↓enをjaに変更する -->
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ACCESS</title>
+    <meta name="description" content="妙蓮寺のミニシアター CINEMA THUMP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      property="og:image"
+      content="https://mjtmmts-ux.github.io/wcbcafe/images/ogp.jpg"
+    />
+    <!-- ↑OGPがWCBカフェのままなのであとで変える -->
+    <!-- ↓p216ファビコン -->
+    <link rel="icon" type="image/png" href="cinemathump_images/favicon.png" />
+    <!-- ↓リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- ↓Googleフォントのリンクをコピペ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BJ+Cree:wght@400;500;600;700&family=Bebas+Neue&family=Boldonse&family=Dela+Gothic+One&family=Hachi+Maru+Pop&family=Kaisei+Decol&family=M+PLUS+1:wght@100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sawarabi+Gothic&family=Yuji+Mai&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ↓背景画像のクラス -->
+    <!--<div class="cover cover-home">-->
+    <header class="page-header wrapper">
+      <!-- ← wrapper クラスを追加 p211-->
+      <!-- ↓ロゴ画像がタイトルだけど、画像が表示されなかったときのためにタイトルとしてh1のクラスを設定↓-->
+      <h1 class="align-center">
+        <!-- ↓リンクを貼るためのaタグ -->
+        <a href="index.html"
+          ><img
+            class="logo"
+            src="cinemathump_images/cinemathump_logo2.png"
+            alt="シネマサンプホーム"
+        /></a>
+      </h1>
+      <nav>
+        <ul class="main-nav font-english">
+          <!-- ↓メニュータブを増やしたらリンクのaタグも増やす -->
+          <li><a href="schedule.html">SCHEDULE</a></li>
+          <li><a href="theater.html">THEATER</a></li>
+          <li><a href="cafe.html">CAFE</a></li>
+          <li><a href="access.html">ACCESS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ↓キャッチコピーのクラス -->
+    <!--<h2 class="page-title font-english">We'll Make Your Day</h2>-->
+    <!-- ↓見出しと文章のクラス -->
+    <section class="about">
+      <h3 class="heading-large font-english">ACCESS</h3>
+      <!-- ↓マップ -->
+      <div class="img-box">
+        <p>
+          <img
+            src="cinemathump_images/cinemathump_map.png"
+            alt="シネマサンプマップ"
+          />
+        </p>
+      </div>
+
+      <div class="about-text">
+        <p>東急東横線 妙蓮寺駅から徒歩2分。</p>
+        <p>改札を出て右へ曲がると妙蓮寺商店街があります。</p>
+        <p>
+          郵便局を過ぎた左側の角を曲がると、ファミリーマートさんの正面に当館がございます。
+        </p>
+      </div>
+      <!-- ↓リンクボタンを中央に配置したいので、divのクラスの中にボタンのクラスを設置 -->
+      <!--<div class="align-center">
+        <a class="btn" href="menu.html">メニューを見る</a>-->
+      <!-- ↓exa-so.co.jpからボタンのコピペをしてみた -->
+      <!--<p><button class="btn-gradient-three">Premium Action</button></p>
+      </div>-->
+    </section>
+    <br />
+    <br />
+    <br />
+    <!-- ↓フッター部分のクラス -->
+    <footer class="page-footer">
+      <h3 class="heading-large font-english">Information</h3>
+      <table class="info">
+        <tr>
+          <th>住所</th>
+          <td>港北区菊名東XXXーXX</td>
+        </tr>
+        <tr>
+          <th>電話</th>
+          <td>03-1111-XXXX</td>
+        </tr>
+        <tr>
+          <th>営業時間</th>
+          <td>9:00〜21:00（上映時間による）</td>
+        </tr>
+        <tr>
+          <th>お休み</th>
+          <td>年末年始/不定休（HPにてお知らせ）</td>
+        </tr>
+      </table>
+      <!-- ↓コピーライトの追加 -->
+      <div class="copyright">
+        <small>&copy; 2026 CINEMA THUMP</small>
+      </div>
+    </footer>
+  </body>
+</html>
